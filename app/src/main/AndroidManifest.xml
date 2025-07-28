@@ -14,10 +14,13 @@
             android:value="true" />
         <meta-data
             android:name="xposeddescription"
-            android:value="Disable Direct Share LSPosed 모듈" />
+            android:value="Disable Direct Share LSPosed Module" />
         <meta-data
             android:name="xposedminversion"
             android:value="54" />
+        <meta-data
+            android:name="xposedscope"
+            android:value="android;system;com.android.systemui" />
     </application>
 
 </manifest>
